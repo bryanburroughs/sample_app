@@ -11,9 +11,9 @@ development:
   reconnect: false
   database: sample_app_development
   pool: 5
-  username: root
-  password:
-  host: localhost
+  username: sample
+  password: abc123
+  host: ace
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -24,9 +24,9 @@ test:
   reconnect: false
   database: sample_app_test
   pool: 5
-  username: root
-  password:
-  host: localhost
+  username: sample
+  password: abc123
+  host: ace
 
 production:
   adapter: mysql2
@@ -34,6 +34,6 @@ production:
   reconnect: false
   database: sample_app_production
   pool: 5
-  username: root
-  password:
-  host: localhost
+  username: sample
+  password: abc123
+  host: ace
